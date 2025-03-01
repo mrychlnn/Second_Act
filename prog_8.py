@@ -2,8 +2,8 @@
 
 odd = 0
 
-for num in range(10):
-    number = int(input(f"Enter number {num+1}: "))
+for i in range(10):
+    number = int(input(f"Enter number {i+1}: "))
     if number % 2 != 0:
         odd += 1
 
